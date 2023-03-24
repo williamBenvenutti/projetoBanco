@@ -1,0 +1,185 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #e5edff, #cbdaff);
+
+}
+
+.container{
+    width: 540px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.infos{
+    text-align: left;
+    width: 100%;
+    padding: 20px 40px;
+    border-radius: 10px;
+    position: relative;
+    background-color: #274389;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+.infos p{
+    font-size: 20px;
+    font-weight: 500;
+    color: white;
+}
+
+.infos h2{
+    font-size: 23px;
+    color: white;
+}
+
+.contaBanco{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.contaBanco p{
+    color: #274389;
+    font-weight: 500;
+}
+
+.contaBanco h2{
+    color: #274389;
+    font-size: 40px;
+}
+
+
+li{
+    list-style-type: none;
+    display: inline;
+    padding: 20px;
+}
+
+.botoes ul button{
+    margin-top: 20px;
+    border: none;
+    width: 120px;
+    background-color: #274389;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.botoes ul button i{
+    padding-top: 5px;
+    font-size: 30px;
+    font-weight: 100;
+}
+
+.botoes ul button p{
+    padding-bottom: 5px;
+    font-size: 10px;
+}
+
+.campoEscrita{
+    display: grid;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    align-items: center;
+    text-align: center;
+}
+
+.campoEscrita input{
+    width: 50%;
+    margin: 0 auto 20px;
+    padding: 10px;
+    height: 30px;
+    border-radius: 5px;
+    border: 1px solid #274389;
+    color: #274389;
+    outline: none;
+    font-size: 1rem;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btnSend{
+    margin: 0 auto;
+    border: none;
+    width: 100px;
+    height: 35px;
+    font-size: 20px;
+    background-color: #274389;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.btnInc{
+    margin: 0 auto;
+    border: none;
+    width: 200px;
+    height: 75px;
+    font-size: 20px;
+    background-color: #274389;
+    color: white;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+ul {
+    margin-top: -20px;
+    display: block;
+    list-style: none;
+    padding: 0;
+    margin-bottom: 30px;
+}
+
+.depositoExtrato{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    background-color: #c1e1bd;
+    padding: 0.5rem;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 0 auto 10px;
+    color:#46943b;
+}
+
+.saqueExtrato{
+    justify-content: space-between;
+    display: flex;
+    text-align: center;
+    margin-bottom: 20px;
+    background-color: #e1bdbd;
+    padding: 0.5rem;
+    width: 200px;
+    border-radius: 10px;
+    font-size: 18px;
+    margin: 0 auto 10px;
+    color:#e26161;
+}
+
+.saqueExtrato i{
+    margin-right: 10px;
+    font-size: 26px;
+    color:#e26161;
+}
+
+.depositoExtrato i{
+    margin-right: 10px;
+    font-size: 26px;
+    color:#46943b;
+}

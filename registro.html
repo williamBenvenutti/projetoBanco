@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista Tarefas</title>
+    <link rel="stylesheet" href="estilo/style-registro.css" />
+    <script src="script/register.js" defer></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Benva's Bank</h1>
+      <p class="registroUsuarioP">-REGISTRO DE USUÁRIO-</p>
+      <div class="divInsert">
+        <input type="text" id="nomeInput" placeholder="Nome completo"/>
+        <input type="text" id="cpfUser" maxlength="14" placeholder="CPF"/>
+        <input type="text" id="dataInput" placeholder="Data de Nascimento"/>
+        <input type="text" id="userName" placeholder="Usuário"/>
+        <input type="password" id="senhaInput"placeholder="Senha"/>
+        <input type="password" placeholder="Confirmar senha"/>
+        <div class="registro">
+            <button class="btnRegistro" onclick="coletarDados()">Registre-se</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

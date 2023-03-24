@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-image: linear-gradient(to bottom, #e5edff, #cbdaff);
+
+}
+
+.container{
+    width: 500px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    padding: 40px;
+    text-align: center;
+    justify-content: center;
+}
+
+.container h1{
+    font-size: 32px;
+    color: #274389;
+}
+
+.container p{
+    text-align: center;
+    justify-content: center;
+    margin-bottom: 30px;
+    margin-top: -10px;
+    letter-spacing: 4.8px;
+    font-size: 12px;
+    color: #274389;
+    padding-bottom: 20px;
+    border-bottom: 1px solid;
+}
+
+.divInsert input{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    border: 1px solid #274389;
+    outline: none;
+    font-size: 1rem;
+}
+
+.btnRegistro {
+    transition : 1000ms;
+    display: block;
+    width: 40%;
+    padding: 8px;
+    border-radius: 5px;
+    border: 2px solid #274389;
+    background-color: white;
+    color: #274389;
+    font-size: 1rem;
+    cursor: pointer;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btnRegistro:hover{
+    transition : 1000ms;
+    width: 50%;
+    transform : translateY(-0px);
+    background-color: #274389;
+    color: white;
+    border: solid 2px #274389;
+}
+
+.registro{
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    padding-top: 30px;
+    border-top: 1px solid #274389;
+}

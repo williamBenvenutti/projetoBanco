@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lista Tarefas</title>
+    <link rel="stylesheet" href="estilo/style-home.css" />
+    <script src="script/main.js" defer></script>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="infos">
+        <span id="hora"></span>
+        <span id="nomeUser"></span>
+      </div>
+      <div class="contaBanco">
+        <p>Saldo disponivel:</p>
+        <span id="saldoConta"></span>
+        <p>Limitado em R$ 1.000,00 por saque</p>
+      </div>
+      <div class="botoes">
+        <ul>
+          <li>
+            <button onclick="adicionarInputSaque()">
+              <i class='bx bx-money-withdraw'></i><p>SAQUE</p>
+            </button>
+          </li>
+          <li>
+            <button onclick="adicionarInputDeposito()">
+              <i class='bx bx-wallet-alt' ></i><p>DEPÓSITO</p>
+            </button>
+          </li>
+          <li>
+            <button onclick="mostrarExtrato()">
+              <i class='bx bx-wallet'></i><p>EXTRATO</p>
+            </button>
+          </li>
+        </ul>
+      </div>
+      <div class="campoEscrita">
+        <span id="inputDeposito"></span>
+        <span id="btnEnviar"></span>
+        <span id="inputSaque"></span>
+        <span id="btnEnviarDois"></span>
+        <span id="btnInc"></span>
+      </div>
+      <ul class="extratoBanco" id="#extrato">
+        <span id="testeLista"></span>
+      </ul>
+    </div>
+  </body>
+</html>
